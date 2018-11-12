@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+
+.header{
+    height: 100px;
+    background: #000;
+}
+
+.navigation{
+    height: 30px;
+    background: rgb(189, 185, 185);
+}
+
+.wrapper{
+    width: 960px;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 70%;
+    height: 100%;
+    background: rgb(216, 216, 216);
+    margin: 20px 0;
+    float: left;
+}
+
+.sidebar{
+    width: 27%;
+    height: 100%;
+    background: rgb(158, 158, 158);
+    float: right;
+    margin: 20px 0;
+}
+.footer{
+    position: relative;
+    height: 100px;
+    background: gray;
+    width: 100%;
+    margin-top: 40px;
+
+}
